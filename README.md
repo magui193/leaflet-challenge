@@ -1,3 +1,3 @@
 # Geomapping Earthquakes with Leaflet JS
 
-Website link: 
+Website link: https://magui193.github.io/leaflet-challenge/
