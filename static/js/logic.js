@@ -96,8 +96,8 @@ d3.json(earthquakesUrl, function (data) {
 
     for (var i = 0; i < magnitudelevel.length; i++) {
       div.innerHTML +=
-          '<i style="background:' + markerColor(magnitudelevel[i] + 1) + '"></i> ' +
-            magnitudelevel[i] + (magnitudelevel[i + 1] ? '&ndash;' + magnitudelevel[i + 1] + '<br>' : '+');
+          '<div><i style="background:' + markerColor(magnitudelevel[i] + 1) + '"></i> ' +
+            magnitudelevel[i] + (magnitudelevel[i + 1] ? '&ndash;' + magnitudelevel[i + 1] + '<br></div>' : '+');
     }
     return div;
   };
